@@ -14,10 +14,7 @@ jobs:
         uses: actions/checkout@master
 
       - name: install
-        run: npm install
-
-      - name: test
-        run: npm run test-image
+        run: yarn
 
       - name: upload snapshots artifact
         uses: actions/upload-artifact@v2
