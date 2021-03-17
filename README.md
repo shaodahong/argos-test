@@ -1,3 +1,4 @@
 # argos-test
 
 trigger
+trigger
